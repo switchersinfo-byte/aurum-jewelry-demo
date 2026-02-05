@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aurum - Timeless Luxury Jewelry Collection">
+    <title>Aurum - Timeless Elegance in Gold</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-container" id="loader">
+        <div class="loader-box">
+            <div class="logo-loader">AURUM</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="marquee">
+                    <span>Free Shipping on Orders Over $500 • Complimentary Gift Wrapping • Limited Edition Collections Available</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <div class="main-header">
+            <div class="container">
+                <div class="header-wrapper">
+                    <!-- Mobile Menu Button -->
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="/">AURUM</a>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#collections">Collections</a></li>
+                            <li><a href="#new-arrivals">New Arrivals</a></li>
+                            <li><a href="#featured">Featured</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Header Actions -->
+                    <div class="header-actions">
+                        <button class="search-btn" aria-label="Search">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM19 19l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="account-btn" aria-label="Account">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.5 17.5v-2a4 4 0 0 0-4-4h-5a4 4 0 0 0-4 4v2M10 9.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <button class="cart-btn" aria-label="Shopping cart">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 18.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM16.5 18.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.5 1.5h3l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L19.5 6.5H5.12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="cart-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">AURUM</div>
+            <button class="close-menu" aria-label="Close menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Hero Slider Section -->
+        <section class="hero-slider">
+            <div class="container-fluid">
+                <div class="swiper hero-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="hero-slide" style="background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">INTRODUCING</span>
+                                    <h1 class="hero-title">The Gold Standard of Elegance</h1>
+                                    <p class="hero-description">Exquisite craftsmanship meets timeless design in our exclusive collection</p>
+                                    <a href="#collections" class="btn btn-primary">Explore Collection</a>
+                                </div>
+                                <div class="hero-image">
+                                    <div class="placeholder-image gold-ring"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="hero-slide" style="background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">NEW ARRIVALS</span>
+                                    <h1 class="hero-title">Artistry in Gold</h1>
+                                    <p class="hero-description">Limited edition pieces crafted by master jewelers</p>
+                                    <a href="#new-arrivals" class="btn btn-primary">Shop Now</a>
+                                </div>
+                                <div class="hero-image">
+                                    <div class="placeholder-image gold-necklace"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="hero-slide" style="background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">SIGNATURE COLLECTION</span>
+                                    <h1 class="hero-title">Radiant Luxury</h1>
+                                    <p class="hero-description">Where contemporary design meets classical beauty</p>
+                                    <a href="#featured" class="btn btn-primary">Discover More</a>
+                                </div>
+                                <div class="hero-image">
+                                    <div class="placeholder-image gold-bracelet"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Links Section -->
+        <section class="quick-links" id="collections">
+            <div class="container">
+                <div class="swiper quick-links-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder ring-icon"></div>
+                                </div>
+                                <span>Rings</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder necklace-icon"></div>
+                                </div>
+                                <span>Necklaces</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder bracelet-icon"></div>
+                                </div>
+                                <span>Bracelets</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder earring-icon"></div>
+                                </div>
+                                <span>Earrings</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder pendant-icon"></div>
+                                </div>
+                                <span>Pendants</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder watch-icon"></div>
+                                </div>
+                                <span>Watches</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder chain-icon"></div>
+                                </div>
+                                <span>Chains</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="quick-link-card">
+                                <div class="quick-link-icon">
+                                    <div class="icon-placeholder brooch-icon"></div>
+                                </div>
+                                <span>Brooches</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotional Banner Section -->
+        <section class="promo-banner">
+            <div class="container">
+                <div class="promo-content">
+                    <div class="promo-text">
+                        <span class="promo-label">Limited Time Offer</span>
+                        <h2>Exclusive Collection Launch</h2>
+                        <p>Discover our newest masterpieces - crafted with precision and adorned with brilliance</p>
+                    </div>
+                    <div class="countdown-timer" data-end-date="2026-02-15">
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="days">00</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="hours">00</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="minutes">00</span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-value" id="seconds">00</span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="featured-products" id="new-arrivals">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">New Arrivals</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="swiper products-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Product 1 -->
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <div class="placeholder-product-img product-1"></div>
+                                    <div class="product-badge">NEW</div>
+                                    <button class="wishlist-btn" aria-label="Add to wishlist">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.5 6.5c0 3-2.5 5.5-5 7.5l-2.5 2-2.5-2c-2.5-2-5-4.5-5-7.5C2.5 4.5 4 3 6 3c1.5 0 2.8.8 3.5 2 .7-1.2 2-2 3.5-2 2 0 3.5 1.5 3.5 3.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Celestial Ring</h3>
+                                    <p class="product-description">18K Gold Diamond Ring</p>
+                                    <div class="product-price">
+                                        <span class="current-price">$2,499</span>
+                                    </div>
+                                    <button class="btn btn-secondary btn-add-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <div class="placeholder-product-img product-2"></div>
+                                    <div class="product-badge sale">SALE</div>
+                                    <button class="wishlist-btn" aria-label="Add to wishlist">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.5 6.5c0 3-2.5 5.5-5 7.5l-2.5 2-2.5-2c-2.5-2-5-4.5-5-7.5C2.5 4.5 4 3 6 3c1.5 0 2.8.8 3.5 2 .7-1.2 2-2 3.5-2 2 0 3.5 1.5 3.5 3.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Lumière Necklace</h3>
+                                    <p class="product-description">24K Gold Statement Piece</p>
+                                    <div class="product-price">
+                                        <span class="current-price">$3,299</span>
+                                        <span class="original-price">$4,499</span>
+                                    </div>
+                                    <button class="btn btn-secondary btn-add-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 3 -->
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <div class="placeholder-product-img product-3"></div>
+                                    <div class="product-badge">LIMITED</div>
+                                    <button class="wishlist-btn" aria-label="Add to wishlist">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.5 6.5c0 3-2.5 5.5-5 7.5l-2.5 2-2.5-2c-2.5-2-5-4.5-5-7.5C2.5 4.5 4 3 6 3c1.5 0 2.8.8 3.5 2 .7-1.2 2-2 3.5-2 2 0 3.5 1.5 3.5 3.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Elegance Bracelet</h3>
+                                    <p class="product-description">18K Rose Gold & Diamonds</p>
+                                    <div class="product-price">
+                                        <span class="current-price">$1,899</span>
+                                    </div>
+                                    <button class="btn btn-secondary btn-add-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product 4 -->
+                        <div class="swiper-slide">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <div class="placeholder-product-img product-4"></div>
+                                    <button class="wishlist-btn" aria-label="Add to wishlist">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.5 6.5c0 3-2.5 5.5-5 7.5l-2.5 2-2.5-2c-2.5-2-5-4.5-5-7.5C2.5 4.5 4 3 6 3c1.5 0 2.8.8 3.5 2 .7-1.2 2-2 3.5-2 2 0 3.5 1.5 3.5 3.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="product-info">
+                                    <h3 class="product-title">Eternal Earrings</h3>
+                                    <p class="product-description">White Gold Drop Earrings</p>
+                                    <div class="product-price">
+                                        <span class="current-price">$1,599</span>
+                                    </div>
+                                    <button class="btn btn-secondary btn-add-cart">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection Section -->
+        <section class="featured-collection" id="featured">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Signature Collection</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="collection-grid">
+                    <div class="collection-item large">
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <div class="placeholder-collection-img collection-1"></div>
+                            </div>
+                            <div class="collection-overlay">
+                                <h3>Radiance Collection</h3>
+                                <p>Inspired by timeless elegance</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-item">
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <div class="placeholder-collection-img collection-2"></div>
+                            </div>
+                            <div class="collection-overlay">
+                                <h3>Modern Classics</h3>
+                                <p>Contemporary meets tradition</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-item">
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <div class="placeholder-collection-img collection-3"></div>
+                            </div>
+                            <div class="collection-overlay">
+                                <h3>Artisan Series</h3>
+                                <p>Handcrafted masterpieces</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="about-label">OUR STORY</span>
+                        <h2>Crafting Excellence Since Inception</h2>
+                        <p>At Aurum, we believe that jewelry is more than adornment—it's an expression of artistry, a celebration of moments, and a legacy to be cherished. Each piece in our collection is meticulously crafted by master jewelers who honor centuries-old traditions while embracing contemporary design sensibilities.</p>
+                        <p>From the selection of the finest materials to the final polish, every detail receives our unwavering attention. We source only the purest gold and the most brilliant gemstones, ensuring that each creation meets our exacting standards of excellence.</p>
+                        <a href="#" class="btn btn-secondary">Our Heritage</a>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-about-img"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title text-center">The Aurum Promise</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 42c9.941 0 18-8.059 18-18S33.941 6 24 6 6 14.059 6 24s8.059 18 18 18z" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24 16v8l5 3" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Lifetime Craftsmanship</h3>
+                        <p>Each piece is backed by our lifetime guarantee on craftsmanship and materials</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22l10 10 20-20" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Authenticity Certificate</h3>
+                        <p>Every item comes with a certificate of authenticity from our master jewelers</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M42 20v-4a4 4 0 0 0-4-4H10a4 4 0 0 0-4 4v4M6 28v4a4 4 0 0 0 4 4h28a4 4 0 0 0 4-4v-4M24 12v24" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Complimentary Gift Service</h3>
+                        <p>Luxury packaging and personalized gift wrapping at no additional cost</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 30c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6z" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M38.5 24c0 2-1.5 5-4.5 8s-7 6-10 6-7-3-10-6-4.5-6-4.5-8c0-2 1.5-5 4.5-8s7-6 10-6 7 3 10 6 4.5 6 4.5 8z" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Expert Consultation</h3>
+                        <p>Personal guidance from our jewelry specialists for every purchase</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section" id="contact">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Join the Aurum Circle</h2>
+                    <p>Be the first to discover new collections, exclusive offers, and jewelry care tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">AURUM</h3>
+                    <p class="footer-description">Where timeless elegance meets contemporary luxury. Crafting exceptional jewelry for those who appreciate the finer things in life.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="18" cy="6" r="1" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Collections</h4>
+                    <ul>
+                        <li><a href="#">Rings</a></li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                        <li><a href="#">Earrings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Jewelry Care</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aurum. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
