@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Tag Adventure - A Magical Playground Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <!-- Game Container -->
+    <div id="game-container"></div>
+
+    <!-- UI Overlay -->
+    <div id="ui-overlay">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-content">
+                <h1>Panda Tag Adventure</h1>
+                <p>Play tag with your friendly panda friend in a magical playground!</p>
+                <button id="start-game-btn" class="game-btn">Start Playing</button>
+            </div>
+        </div>
+
+        <!-- Game HUD -->
+        <div id="game-hud" class="screen">
+            <div class="hud-top">
+                <div class="score-display">
+                    <span class="icon">⭐</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="fruit-display">
+                    <span class="icon">🍎</span>
+                    <span id="fruits">0</span>
+                </div>
+            </div>
+            <div class="hud-center">
+                <div id="message-display"></div>
+            </div>
+            <div class="hud-bottom">
+                <div class="controls-hint">
+                    Use Arrow Keys or WASD to move • Space to Jump
+                </div>
+            </div>
+        </div>
+
+        <!-- Caught Screen -->
+        <div id="caught-screen" class="screen">
+            <div class="caught-content">
+                <h2>Tag! You're It!</h2>
+                <p id="caught-message">The panda caught you! Great game!</p>
+                <button id="play-again-btn" class="game-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+
+    <!-- Game Script -->
+    <script src="game.js"></script>
+</body>
+</html>
